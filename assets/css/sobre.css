@@ -1,0 +1,165 @@
+.section-sobre {
+  width: 1280px;
+  margin: auto;
+  margin-top: 140px;
+}
+.section-sobre .area-endereco {
+  margin: auto;
+  width: 940px;
+  height: 385px;
+  background-image: linear-gradient(to left, rgba(242, 242, 242, 0.7) 0%, rgba(242, 242, 242, 0.7) 100%), url(../images/backgound-endereco.png);
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section-sobre .area-endereco .img-endereco {
+  width: 413px;
+  height: 460px;
+  margin-left: 142px;
+  background-image: url(../images/imagem-endereco.png);
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.section-sobre .area-endereco .img-endereco .img-eurico {
+  position: relative;
+  top: 78px;
+}
+.section-sobre .conteudo-endereco {
+  width: 248px;
+  margin-right: 82px;
+  display: flex;
+  flex-direction: column;
+}
+.section-sobre .conteudo-endereco .titulo-endereco {
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+.section-sobre .conteudo-endereco .titulo-endereco span {
+  font-size: 25px;
+  font-weight: bold;
+}
+.section-sobre .conteudo-endereco .linha-endereco {
+  width: 60px;
+  margin-top: 10px;
+  margin-left: 110px;
+  border-bottom: solid 2px #D82532;
+}
+.section-sobre .conteudo-endereco .descricao-endereco {
+  font-size: 16px;
+  line-height: 30px;
+  margin: 26px 0 60px 0;
+}
+.section-sobre .conteudo-endereco .botoes {
+  display: flex;
+}
+.section-sobre .conteudo-endereco .botoes .btn-endereco {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #000000;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-sobre .area-instagram {
+  margin: auto;
+  margin-top: 175px;
+}
+.section-sobre .area-instagram .titulo-area-instagram {
+  text-align: center;
+  font-weight: 400;
+  font-size: 25px;
+  letter-spacing: 3px;
+}
+.section-sobre .area-instagram .titulo-area-instagram a {
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 3.7px;
+}
+.section-sobre .area-instagram .fotos-instagram {
+  margin-top: 60px;
+  width: 1280px;
+  display: grid;
+  grid-template-columns: repeat(5, 250px);
+  justify-content: center;
+  align-items: center;
+}
+.section-sobre .area-instagram .fotos-instagram img {
+  width: 250px;
+  transition: all 0.1s;
+}
+.section-sobre .area-instagram .fotos-instagram img:hover {
+  transform: scale(1.2);
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
+}
+.section-sobre .area-sobre-eurico {
+  margin: auto;
+  margin-top: 100px;
+}
+.section-sobre .area-sobre-eurico .titulo-area-sobre {
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 3.3px;
+}
+.section-sobre .area-sobre-eurico .titulo-area-sobre span {
+  letter-spacing: 3.3px;
+  font-size: 25px;
+  font-weight: 400;
+}
+.section-sobre .area-sobre-eurico p {
+  margin: auto;
+  margin-top: 35px;
+  width: 1024px;
+  letter-spacing: 1.2px;
+  text-align: center;
+}
+.section-sobre .area-newsletter {
+  width: 1024px;
+  margin: auto;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-sobre .area-newsletter .area-newsletter-esquerdo h3 {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+}
+.section-sobre .area-newsletter .area-newsletter-esquerdo p {
+  margin-top: 20px;
+  width: 345px;
+  height: 40px;
+  overflow: hidden;
+  letter-spacing: 1.2px;
+  line-height: 20px;
+}
+.section-sobre .area-newsletter .area-newsletter-direito input {
+  width: 360px;
+  padding: 0 25px;
+  margin: 0 25px;
+  border-bottom: 1px solid #707070;
+  line-height: 35px;
+  font-size: 14px;
+  letter-spacing: 1.2px;
+  color: #000;
+}
+.section-sobre .area-newsletter .area-newsletter-direito input::placeholder {
+  color: #000;
+  font-size: 14px;
+  letter-spacing: 1.2px;
+}
+.section-sobre .area-newsletter .area-newsletter-direito button {
+  cursor: pointer;
+  width: 190px;
+  height: 45px;
+  border: 1px solid #000;
+  color: #000;
+  letter-spacing: 1.2px;
+}

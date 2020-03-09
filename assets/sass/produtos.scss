@@ -1,0 +1,81 @@
+.section-produtos {
+    width: 1220px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.carousel {
+    width: 1120px;
+    margin: auto;
+
+    .slick-prev::before {
+        font-size: 0px;
+        position: absolute;
+        left: -50px;
+        width: 26px;
+        height: 50px;
+        background-image: url(../images/voltar-produto.png);
+    }
+    .slick-next::before {
+        font-size: 0px;
+        position: absolute;
+        right: -50px;
+        width: 26px;
+        height: 50px;
+        background-image: url(../images/proximo-produto.png);
+    }
+    .slick-arrow {
+        display: none;
+    }
+
+    .item {
+        margin: 20px 10px;
+        padding: 25px;
+        height: 460px;
+
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+
+        .img-produto {
+            width: 212px;
+            align-self: center;
+        }
+
+        .descicao-produto {
+            width: 220px;
+            text-align: center;
+            margin-top: 80px;
+            letter-spacing: 2.5px;
+        }
+        .preco-produto {
+            width: 103px;
+            margin-top: 20px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 13px;
+            letter-spacing: 2.5px;
+
+            .fs-11 {
+                font-weight: bold;
+                font-size: 11px;
+            }
+            .fw-l {
+                font-weight: 300;
+            }
+        }
+        .btn-produto {
+            margin-top: 35px;
+            width: 220px;
+            height: 45px;
+            border: 1px solid #000;
+            font-weight: 400;
+            font-size: 11px;
+        }
+
+    }
+    .item:hover {
+        box-shadow: 3px 10px 8px #00000015;
+    }
+
+}

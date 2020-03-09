@@ -1,0 +1,95 @@
+.section-ofertas {
+  margin-top: 25px;
+  height: 450px;
+  display: flex;
+  justify-content: center; }
+  .section-ofertas .box1 {
+    width: 300px;
+    height: 390px;
+    margin-right: 20px;
+    align-self: flex-end;
+    background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.2) 80%), url(../images/sneakers.png);
+    background-position: -74px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end; }
+    .section-ofertas .box1 .title-box1 {
+      color: #fff;
+      letter-spacing: 1px;
+      font-size: 22px;
+      font-weight: 500; }
+    .section-ofertas .box1 .texto-box1 {
+      color: #fff;
+      letter-spacing: 1px;
+      font-size: 50px;
+      font-weight: 900; }
+    .section-ofertas .box1 .btn-box1 {
+      width: 185px;
+      height: 45px;
+      border: 1px solid #fff;
+      font-weight: bold;
+      color: #fff;
+      margin-top: 30px;
+      margin-bottom: 60px; }
+  .section-ofertas .box2 {
+    width: 300px;
+    height: 390px;
+    margin-right: 20px;
+    background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.2) 80%), url(../images/imperdiveis.png);
+    background-position: -44px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end; }
+    .section-ofertas .box2 .title-box2 {
+      -webkit-text-stroke-width: 2px;
+      -webkit-text-stroke-color: #fff;
+      color: transparent;
+      font-size: 60px;
+      font-weight: 900;
+      line-height: 50px; }
+    .section-ofertas .box2 .texto-box2 {
+      color: #fff;
+      font-size: 29px;
+      font-weight: 900; }
+    .section-ofertas .box2 .btn-box2 {
+      width: 185px;
+      height: 45px;
+      border: 1px solid #fff;
+      font-weight: bold;
+      color: #fff;
+      margin-top: 30px;
+      margin-bottom: 85px; }
+  .section-ofertas .box3 {
+    width: 300px;
+    height: 390px;
+    margin-right: 20px;
+    align-self: flex-end;
+    background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.2) 80%), url(../images/colecao.png);
+    background-position: -85px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end; }
+    .section-ofertas .box3 .title-box3 {
+      color: #fff;
+      font-size: 22px;
+      font-weight: 900;
+      letter-spacing: 4px; }
+    .section-ofertas .box3 .texto-box3 {
+      color: #fff;
+      letter-spacing: 1px;
+      font-size: 50px;
+      font-weight: 300;
+      line-height: 55px; }
+    .section-ofertas .box3 .btn-box3 {
+      width: 185px;
+      height: 45px;
+      border: 1px solid #fff;
+      font-weight: bold;
+      color: #fff;
+      margin-top: 30px;
+      margin-bottom: 60px; }
+
+/*# sourceMappingURL=ofertas.css.map */

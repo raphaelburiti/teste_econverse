@@ -1,0 +1,296 @@
+/*RESET CSS*/
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: #000;
+}
+
+textarea:focus, input:focus, button:focus, .item:focus {
+    outline: none;
+}
+
+input, button {
+    border: none;
+    background: none;
+}
+li, ul, a {
+    text-decoration: none;
+    list-style: none;
+}
+/*FIM RESET CSS*/
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.topo {
+    width: 100%; 
+    max-width: 1280px;
+    height: 28px;
+
+    display: flex;
+    justify-content: center;
+
+    .topo-int {
+        width: 700px;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        a {
+            font-size: 10px;
+        }
+    }
+}
+
+.header {
+    width: 100%;   
+    height: 120px; 
+    box-shadow: 3px 1px 8px #00000010;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .header-int {
+        width: 100%;
+        max-width: 1280px;
+        height: 80px;
+
+        display: flex;
+        align-items: center;
+
+        .header-links {
+            flex: 1;
+            margin-left: 75px;
+
+            .link-eurico {
+                font-weight: bold;
+                color: #C00018;
+                margin-right: 30px;
+            }
+        }
+
+        .header-logo {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+        }
+
+        .header-area-usuario {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            margin-right: 75px;
+    
+            .input-buscar {
+                width: 140px;
+                padding-left: 10px;
+                border-bottom: 1px solid #00000080;
+                line-height: 26px;
+                letter-spacing: 1px;
+                font-size: 13px;
+            }
+            .input-buscar::placeholder {
+                color: #00000070;
+            }
+            
+            .icone-buscar {
+                margin-right: 40px;
+            }
+            .icone-usuario {
+                margin-right: 20px;
+            }
+        }
+    }
+
+    .header-nav {
+        width: 745px;
+        height: 40px;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        li {
+            flex: 1;
+            text-align: center;
+            cursor: pointer;
+            
+        }
+        a {
+            transition: all .6s;
+        }
+
+        li:hover {
+            a {
+                color: #666;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+.section-banner {
+    width: 100%;
+    height: 565px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .banner1-fundo {
+        position: absolute;
+        width: 1190px;
+        height: 475px;
+        overflow: hidden;
+
+        .banner1-fundo-img {
+            position: relative;
+            top: -165px;
+            right: 0px;
+        }
+    }
+
+    .banner1-frente {
+        position: absolute;
+        z-index: 1;
+        width: 1024px;
+        height: 565px;
+        overflow: hidden;
+
+        .banner1-frente-img {
+            position: relative;
+            top: -10px;
+        }
+    }
+    .banner1-area-texto {
+        z-index: 2;
+        align-self: flex-end;
+        width: 559px;
+        height: 370px;
+        margin-left: 595px;
+        margin-bottom: 45px;
+        padding: 0 15px 0 22px;
+
+        display: flex;
+        flex-direction: column;
+
+        .header-box {
+            height: 24px;
+            align-self: flex-end;
+            display: flex;
+            align-items: center;
+
+            .span-new {
+                font-size: 20px;
+                letter-spacing: 4px;
+                color: #FFF;
+            }
+            .linha {
+                width: 160px;
+                margin: 0 12px 0 12px;
+                border-bottom: 1px solid #ffffff90;
+                color: #FFF;
+            }
+            .span-ano {
+                font-size: 16px;
+                letter-spacing: 4px;
+                color: #FFF;
+            }
+        }
+
+        .box {
+            width: 464px;
+            height: 346px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .area-texto {
+                width: 410px;
+                align-self: flex-start;
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .titulo-box {
+                    line-height: 90px;
+                    font-size: 89px;
+                    font-weight: 900;
+                    letter-spacing: 1px;
+                    color: #FFF;
+                }
+                .descricao-box {
+                    width: 280px;
+                    height: 62px;
+                    overflow: hidden;
+                    font-size: 12px;
+                    font-weight: 400;
+                    letter-spacing: 1px;
+                    line-height: 21px;
+                    color: #fff;
+                    margin: 8px 0 35px 0;
+                }
+                .btns-box {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+
+                    .btn-box {
+                        width: 200px;
+                        height: 45px;
+                        border: 1px solid #fff;
+                        transition: all 0.6s;
+                        cursor: pointer;
+
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        span {
+                            font-weight: 400;
+                            color: #fff;
+                        }
+                    }
+                    .btn-box:hover {
+                        background-color: #fff;
+
+                        span {
+                            color: #000;
+                        }
+                    }
+                }
+            }
+            .controles {
+                align-self: flex-end;
+                display: flex;
+
+                .btn-controles {
+                    width: 50px;
+                    height: 50px;
+                    border: 1px solid #fff;
+                    margin-left: 10px;
+                    transition: all 0.4s;
+                    cursor: pointer;
+
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                .btn-controles:hover {
+                    background-color: #00000080;
+                }
+            }
+        }
+    }
+}

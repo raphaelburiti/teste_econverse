@@ -1,0 +1,167 @@
+.section-colecoes {
+  width: 760px;
+  height: 810px;
+  margin: auto;
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between; }
+  .section-colecoes .box-casual {
+    width: 370px;
+    height: 270px;
+    background-image: url(../images/tenis-casual.png);
+    background-position: -15px -109px; }
+    .section-colecoes .box-casual .mascara {
+      width: 370px;
+      height: 270px;
+      background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2) 70%); }
+      .section-colecoes .box-casual .mascara .conteudo-box {
+        width: 370px;
+        height: 270px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end; }
+        .section-colecoes .box-casual .mascara .conteudo-box .title-casual {
+          letter-spacing: 4.5px;
+          margin-bottom: 4px;
+          font-size: 18px;
+          font-weight: bold;
+          letter-spacing: 4px;
+          color: #fff; }
+        .section-colecoes .box-casual .mascara .conteudo-box .text-casual {
+          -webkit-text-stroke-width: 2px;
+          -webkit-text-stroke-color: #fff;
+          margin-bottom: 20px;
+          font-size: 76px;
+          font-weight: 900;
+          color: transparent; }
+        .section-colecoes .box-casual .mascara .conteudo-box .btn-casual {
+          cursor: pointer;
+          width: 185px;
+          height: 45px;
+          border: 1px solid #fff;
+          margin-bottom: 40px; }
+          .section-colecoes .box-casual .mascara .conteudo-box .btn-casual span {
+            font-weight: bold;
+            letter-spacing: 2.5px;
+            color: #fff; }
+  .section-colecoes .box-woman {
+    margin-top: 20px;
+    width: 370px;
+    height: 450px;
+    background-image: url(../images/new-woman.png);
+    background-position: -100px -5px; }
+    .section-colecoes .box-woman .mascara {
+      width: 370px;
+      height: 450px;
+      background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2) 70%); }
+      .section-colecoes .box-woman .mascara .conteudo-box {
+        width: 370px;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end; }
+        .section-colecoes .box-woman .mascara .conteudo-box .title-woman {
+          margin-bottom: 5px;
+          font-size: 16px;
+          font-weight: 400;
+          letter-spacing: 4px;
+          color: #fff; }
+        .section-colecoes .box-woman .mascara .conteudo-box .text-woman {
+          margin-bottom: 30px;
+          font-size: 70px;
+          font-weight: 900;
+          color: #fff; }
+        .section-colecoes .box-woman .mascara .conteudo-box .btn-woman {
+          cursor: pointer;
+          width: 185px;
+          height: 45px;
+          border: 1px solid #fff;
+          margin-bottom: 70px; }
+          .section-colecoes .box-woman .mascara .conteudo-box .btn-woman span {
+            font-weight: bold;
+            letter-spacing: 2.5px;
+            color: #fff; }
+  .section-colecoes .lado-direito {
+    align-self: flex-end; }
+    .section-colecoes .lado-direito .box-man {
+      width: 370px;
+      height: 450px;
+      background-image: url(../images/new-man.png);
+      background-position: -35px -4px; }
+      .section-colecoes .lado-direito .box-man .mascara {
+        width: 370px;
+        height: 450px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2) 70%); }
+        .section-colecoes .lado-direito .box-man .mascara .conteudo-box {
+          width: 370px;
+          height: 450px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: flex-end; }
+          .section-colecoes .lado-direito .box-man .mascara .conteudo-box .title-man {
+            margin-bottom: 5px;
+            font-size: 16px;
+            font-weight: 400;
+            letter-spacing: 4px;
+            color: #fff; }
+          .section-colecoes .lado-direito .box-man .mascara .conteudo-box .text-man {
+            margin-bottom: 30px;
+            font-size: 70px;
+            font-weight: 900;
+            color: #fff; }
+          .section-colecoes .lado-direito .box-man .mascara .conteudo-box .btn-man {
+            cursor: pointer;
+            width: 185px;
+            height: 45px;
+            border: 1px solid #fff;
+            margin-bottom: 70px; }
+            .section-colecoes .lado-direito .box-man .mascara .conteudo-box .btn-man span {
+              font-weight: bold;
+              letter-spacing: 2.5px;
+              color: #fff; }
+    .section-colecoes .lado-direito .box-esportivo {
+      margin-top: 20px;
+      width: 370px;
+      height: 270px;
+      background-image: url(../images/tenis-esportivo.png);
+      background-position: 0px -107px; }
+      .section-colecoes .lado-direito .box-esportivo .mascara {
+        width: 370px;
+        height: 270px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2) 100%); }
+        .section-colecoes .lado-direito .box-esportivo .mascara .conteudo-box {
+          width: 370px;
+          height: 270px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: flex-end; }
+          .section-colecoes .lado-direito .box-esportivo .mascara .conteudo-box .title-esportivo {
+            letter-spacing: 4.5px;
+            margin-bottom: 4px;
+            font-size: 18px;
+            font-weight: bold;
+            letter-spacing: 4px;
+            color: #fff; }
+          .section-colecoes .lado-direito .box-esportivo .mascara .conteudo-box .text-esportivo {
+            -webkit-text-stroke-width: 2px;
+            -webkit-text-stroke-color: #fff;
+            margin-bottom: 20px;
+            font-size: 76px;
+            font-weight: 900;
+            color: #00000000; }
+          .section-colecoes .lado-direito .box-esportivo .mascara .conteudo-box .btn-esportivo {
+            cursor: pointer;
+            width: 185px;
+            height: 45px;
+            border: 1px solid #fff;
+            margin-bottom: 40px; }
+            .section-colecoes .lado-direito .box-esportivo .mascara .conteudo-box .btn-esportivo span {
+              font-weight: bold;
+              letter-spacing: 2.5px;
+              color: #fff; }
+
+/*# sourceMappingURL=colecoes.css.map */

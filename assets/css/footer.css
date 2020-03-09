@@ -1,0 +1,65 @@
+footer {
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 35px;
+  width: 1115px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer .footer-item-topo {
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer-item-topo .lista-link .titulo-lista {
+  font-size: 14px;
+  letter-spacing: 1.2px;
+  font-weight: 400;
+}
+footer .footer-item-topo .lista-link ul {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer .footer-item-topo .lista-link ul li {
+  margin-top: 12px;
+  line-height: 20px;
+}
+footer .footer-item-topo .lista-link ul .li-fale-conosco {
+  margin-top: 35px;
+}
+footer .footer-item-topo .lista-link ul .li-fale-conosco span {
+  font-weight: 400;
+}
+footer .footer-item-topo .lista-link .lista-pagamentos {
+  max-width: 180px;
+  margin-top: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+footer .footer-item-topo .lista-link .lista-pagamentos li {
+  margin: 0 8px;
+  margin-top: 12px;
+}
+footer .footer-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .footer-item .link-rede-social img {
+  margin-right: 25px;
+}
+footer .footer-item .link-econverse-vtex img {
+  margin-left: 25px;
+}
+footer .footer-item .copyright {
+  width: 595px;
+  height: 28px;
+  line-height: 14px;
+  letter-spacing: 1px;
+  font-size: 10px;
+}

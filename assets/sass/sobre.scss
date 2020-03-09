@@ -1,0 +1,200 @@
+//sass --watch assets/sass:assets/css --no-source-map
+.section-sobre {
+    width: 1280px;
+    margin: auto;
+    margin-top: 140px;
+
+    .area-endereco {
+        margin: auto;
+        width: 940px;
+        height: 385px;
+        background-image: linear-gradient(to left, rgb(242, 242, 242, 0.7) 0%, rgb(242, 242, 242, 0.7) 100%), url(../images/backgound-endereco.png);
+        background-repeat: no-repeat;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .img-endereco {
+            width: 413px;
+            height: 460px;
+            margin-left: 142px;
+            background-image: url(../images/imagem-endereco.png);
+            background-repeat: no-repeat;
+            position: relative;
+    
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+    
+            .img-eurico {
+                position: relative;
+                top: 78px;
+            }
+        }
+    }
+
+    .conteudo-endereco {
+        width: 248px;
+        margin-right: 82px;
+
+        display: flex;
+        flex-direction: column;
+            
+        .titulo-endereco {
+            font-size: 25px;
+            font-weight: 400;
+            letter-spacing: 5px;
+            
+            span {
+                font-size: 25px;
+                font-weight: bold;
+            }
+        }
+        .linha-endereco {
+            width: 60px;
+            margin-top: 10px;
+            margin-left: 110px;
+            border-bottom: solid 2px #D82532;
+        }
+
+        .descricao-endereco {
+            font-size: 16px;
+            line-height: 30px;
+            margin: 26px 0 60px 0;
+        }
+        
+
+        .botoes {
+            display: flex;
+
+            .btn-endereco {
+                cursor: pointer;
+                width: 50px;
+                height: 50px;
+                border: 1px solid #000000;
+                margin-right: 10px;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+
+    .area-instagram {
+        margin: auto;
+        margin-top: 175px;
+        
+
+        .titulo-area-instagram {
+            text-align: center;
+            font-weight: 400;
+            font-size: 25px;
+            letter-spacing: 3px;
+
+            a {
+                font-size: 13px;
+                font-weight: 400;
+                letter-spacing: 3.7px;
+            }
+        }
+
+        .fotos-instagram {
+            margin-top: 60px;
+            width: 1280px;
+            display: grid;
+            grid-template-columns: repeat(5, 250px);
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: 250px;
+                transition: all 0.1s;
+            }
+            img:hover {
+                transform: scale(1.2);
+                box-shadow: 0 1px 8px rgba(0,0,0,0.2);
+            }
+        }
+    }
+    
+    .area-sobre-eurico {
+        margin: auto;
+        margin-top: 100px;
+
+        .titulo-area-sobre {
+            text-align: center;
+            font-size: 25px;
+            letter-spacing: 3.3px;
+
+            span {
+                letter-spacing: 3.3px;
+                font-size: 25px;
+                font-weight: 400;
+            }
+        }
+
+        p {
+            margin: auto;
+            margin-top: 35px;
+            width: 1024px;
+            letter-spacing: 1.2px;
+            text-align: center;
+        }
+    }
+
+    .area-newsletter {
+        width: 1024px;
+        margin: auto;
+        margin-top: 60px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .area-newsletter-esquerdo {
+            h3 {
+                font-size: 14px;
+                font-weight: 400;
+                letter-spacing: 1.2px;
+            }
+
+            p {
+                margin-top: 20px;
+                width: 345px;
+                height: 40px;
+                overflow: hidden;
+                letter-spacing: 1.2px;
+                line-height: 20px;
+            }
+        }
+        .area-newsletter-direito {
+            input {
+                width: 360px;
+                padding: 0 25px;
+                margin: 0 25px;
+                border-bottom: 1px solid #707070;
+                line-height: 35px;
+                font-size: 14px;
+                letter-spacing: 1.2px;
+                color: #000;
+            }
+            input::placeholder {
+                color: #000;
+                font-size: 14px;
+                letter-spacing: 1.2px;
+            }
+
+            button {
+                cursor: pointer;
+                width: 190px;
+                height: 45px;
+                border: 1px solid #000;
+                color: #000;
+                letter-spacing: 1.2px;
+            }
+        }
+    }
+
+}
